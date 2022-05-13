@@ -1,0 +1,14 @@
+import java.util.*;
+class Perimeter
+{
+public static void main(String []args)
+{
+	int x,y,z;
+Scanner s= new Scanner(System.in);
+Perimeter p =new Perimeter();
+x=s.nextInt();
+y=s.nextInt();
+z=s.nextInt();
+System.out.println("Perimeter:"+(x+y+z));
+}
+}
